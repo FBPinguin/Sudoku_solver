@@ -91,6 +91,7 @@ bool sudoku::isCorrect() {
 }
 
 void sudoku::print() {
+    std::cout << "\n---------------------\n";
     for (int y = 0; y < length; ++y) {
         for (int x = 0; x < length; ++x) {
             std::cout << (*this)[y][x] << ' ';
